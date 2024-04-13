@@ -7,19 +7,67 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F47A94762BC561C00047ED10 /* SystemManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47A94752BC561C00047ED10 /* SystemManager.swift */; };
+		F47A94792BC5638B0047ED10 /* DePaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47A94782BC5638A0047ED10 /* DePaView.swift */; };
+		F47A947B2BC5639E0047ED10 /* DePaViewDescibing.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47A947A2BC5639E0047ED10 /* DePaViewDescibing.swift */; };
+		F47A947D2BC56FC90047ED10 /* DePaDescriptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47A947C2BC56FC90047ED10 /* DePaDescriptions.swift */; };
+		F47A947F2BC573AF0047ED10 /* DePaTargets.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47A947E2BC573AF0047ED10 /* DePaTargets.swift */; };
+		F47A94822BC5B6460047ED10 /* CodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47A94812BC5B6460047ED10 /* CodeView.swift */; };
+		F47A94842BC5B6BB0047ED10 /* CommandPatternCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47A94832BC5B6BB0047ED10 /* CommandPatternCode.swift */; };
+		F47A94892BC956720047ED10 /* TextExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47A94882BC956720047ED10 /* TextExtensions.swift */; };
+		F47A948C2BC95B270047ED10 /* ProgLang.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47A948B2BC95B270047ED10 /* ProgLang.swift */; };
+		F47A948E2BC95B620047ED10 /* ProgLangKeywords.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47A948D2BC95B620047ED10 /* ProgLangKeywords.swift */; };
+		F47A94912BC95BFC0047ED10 /* ProgLangKeywordsStoreDescribing.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47A94902BC95BFC0047ED10 /* ProgLangKeywordsStoreDescribing.swift */; };
+		F47A94932BC95D740047ED10 /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47A94922BC95D740047ED10 /* ColorExtensions.swift */; };
+		F47A94952BC95DBD0047ED10 /* CodeViewDescribing.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47A94942BC95DBD0047ED10 /* CodeViewDescribing.swift */; };
 		F4CE27D72BC1C17500180D94 /* Design_PatternsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CE27D62BC1C17500180D94 /* Design_PatternsApp.swift */; };
-		F4CE27D92BC1C17500180D94 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CE27D82BC1C17500180D94 /* ContentView.swift */; };
+		F4CE27D92BC1C17500180D94 /* MainContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CE27D82BC1C17500180D94 /* MainContentView.swift */; };
 		F4CE27DB2BC1C17700180D94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4CE27DA2BC1C17700180D94 /* Assets.xcassets */; };
 		F4CE27DF2BC1C17700180D94 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4CE27DE2BC1C17700180D94 /* Preview Assets.xcassets */; };
+		F4CE27EB2BC1FFBF00180D94 /* DePaTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CE27EA2BC1FFBF00180D94 /* DePaTypeView.swift */; };
+		F4CE27ED2BC2000400180D94 /* DePaTypeViewDescribing.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CE27EC2BC2000400180D94 /* DePaTypeViewDescribing.swift */; };
+		F4CE27F02BC2009500180D94 /* DePaType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CE27EF2BC2009500180D94 /* DePaType.swift */; };
+		F4CE27F32BC202A700180D94 /* SafeSFSymbols in Frameworks */ = {isa = PBXBuildFile; productRef = F4CE27F22BC202A700180D94 /* SafeSFSymbols */; };
+		F4CE27F62BC23D7500180D94 /* ImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CE27F52BC23D7500180D94 /* ImageExtensions.swift */; };
+		F4CE27F92BC23EFF00180D94 /* DePaTypeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CE27F82BC23EFF00180D94 /* DePaTypeListView.swift */; };
+		F4CE27FC2BC24D6000180D94 /* DePa.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CE27FB2BC24D6000180D94 /* DePa.swift */; };
+		F4CE27FE2BC24ECD00180D94 /* DePaTypeListViewDescribing.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CE27FD2BC24ECD00180D94 /* DePaTypeListViewDescribing.swift */; };
+		F4CE28002BC327FF00180D94 /* SafeSFSymbols in Frameworks */ = {isa = PBXBuildFile; productRef = F4CE27FF2BC327FF00180D94 /* SafeSFSymbols */; };
+		F4CE28032BC347A200180D94 /* DePaCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CE28022BC347A200180D94 /* DePaCellView.swift */; };
+		F4CE28052BC347EE00180D94 /* DePaCellViewDescribing.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CE28042BC347EE00180D94 /* DePaCellViewDescribing.swift */; };
+		F4CE28082BC4047300180D94 /* DePaColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CE28072BC4047300180D94 /* DePaColors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F47A94752BC561C00047ED10 /* SystemManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemManager.swift; sourceTree = "<group>"; };
+		F47A94782BC5638A0047ED10 /* DePaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DePaView.swift; sourceTree = "<group>"; };
+		F47A947A2BC5639E0047ED10 /* DePaViewDescibing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DePaViewDescibing.swift; sourceTree = "<group>"; };
+		F47A947C2BC56FC90047ED10 /* DePaDescriptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DePaDescriptions.swift; sourceTree = "<group>"; };
+		F47A947E2BC573AF0047ED10 /* DePaTargets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DePaTargets.swift; sourceTree = "<group>"; };
+		F47A94812BC5B6460047ED10 /* CodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeView.swift; sourceTree = "<group>"; };
+		F47A94832BC5B6BB0047ED10 /* CommandPatternCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandPatternCode.swift; sourceTree = "<group>"; };
+		F47A94882BC956720047ED10 /* TextExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextExtensions.swift; sourceTree = "<group>"; };
+		F47A948B2BC95B270047ED10 /* ProgLang.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgLang.swift; sourceTree = "<group>"; };
+		F47A948D2BC95B620047ED10 /* ProgLangKeywords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgLangKeywords.swift; sourceTree = "<group>"; };
+		F47A94902BC95BFC0047ED10 /* ProgLangKeywordsStoreDescribing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgLangKeywordsStoreDescribing.swift; sourceTree = "<group>"; };
+		F47A94922BC95D740047ED10 /* ColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtensions.swift; sourceTree = "<group>"; };
+		F47A94942BC95DBD0047ED10 /* CodeViewDescribing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeViewDescribing.swift; sourceTree = "<group>"; };
 		F4CE27D32BC1C17500180D94 /* Design Patterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Design Patterns.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4CE27D62BC1C17500180D94 /* Design_PatternsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Design_PatternsApp.swift; sourceTree = "<group>"; };
-		F4CE27D82BC1C17500180D94 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F4CE27D82BC1C17500180D94 /* MainContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainContentView.swift; sourceTree = "<group>"; };
 		F4CE27DA2BC1C17700180D94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4CE27DC2BC1C17700180D94 /* Design_Patterns.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Design_Patterns.entitlements; sourceTree = "<group>"; };
 		F4CE27DE2BC1C17700180D94 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F4CE27EA2BC1FFBF00180D94 /* DePaTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DePaTypeView.swift; sourceTree = "<group>"; };
+		F4CE27EC2BC2000400180D94 /* DePaTypeViewDescribing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DePaTypeViewDescribing.swift; sourceTree = "<group>"; };
+		F4CE27EF2BC2009500180D94 /* DePaType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DePaType.swift; sourceTree = "<group>"; };
+		F4CE27F52BC23D7500180D94 /* ImageExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExtensions.swift; sourceTree = "<group>"; };
+		F4CE27F82BC23EFF00180D94 /* DePaTypeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DePaTypeListView.swift; sourceTree = "<group>"; };
+		F4CE27FB2BC24D6000180D94 /* DePa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DePa.swift; sourceTree = "<group>"; };
+		F4CE27FD2BC24ECD00180D94 /* DePaTypeListViewDescribing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DePaTypeListViewDescribing.swift; sourceTree = "<group>"; };
+		F4CE28022BC347A200180D94 /* DePaCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DePaCellView.swift; sourceTree = "<group>"; };
+		F4CE28042BC347EE00180D94 /* DePaCellViewDescribing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DePaCellViewDescribing.swift; sourceTree = "<group>"; };
+		F4CE28072BC4047300180D94 /* DePaColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DePaColors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,12 +75,58 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4CE28002BC327FF00180D94 /* SafeSFSymbols in Frameworks */,
+				F4CE27F32BC202A700180D94 /* SafeSFSymbols in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F47A94772BC563760047ED10 /* DePaView */ = {
+			isa = PBXGroup;
+			children = (
+				F47A94782BC5638A0047ED10 /* DePaView.swift */,
+				F47A947A2BC5639E0047ED10 /* DePaViewDescibing.swift */,
+			);
+			path = DePaView;
+			sourceTree = "<group>";
+		};
+		F47A94802BC5B63B0047ED10 /* CodeView */ = {
+			isa = PBXGroup;
+			children = (
+				F47A94812BC5B6460047ED10 /* CodeView.swift */,
+				F47A94942BC95DBD0047ED10 /* CodeViewDescribing.swift */,
+			);
+			path = CodeView;
+			sourceTree = "<group>";
+		};
+		F47A94852BC6BC890047ED10 /* CodeSnippets */ = {
+			isa = PBXGroup;
+			children = (
+				F47A94832BC5B6BB0047ED10 /* CommandPatternCode.swift */,
+			);
+			name = CodeSnippets;
+			sourceTree = "<group>";
+		};
+		F47A948A2BC95B120047ED10 /* Languages */ = {
+			isa = PBXGroup;
+			children = (
+				F47A948B2BC95B270047ED10 /* ProgLang.swift */,
+				F47A948D2BC95B620047ED10 /* ProgLangKeywords.swift */,
+				F47A948F2BC95BEB0047ED10 /* Keywords */,
+			);
+			path = Languages;
+			sourceTree = "<group>";
+		};
+		F47A948F2BC95BEB0047ED10 /* Keywords */ = {
+			isa = PBXGroup;
+			children = (
+				F47A94902BC95BFC0047ED10 /* ProgLangKeywordsStoreDescribing.swift */,
+			);
+			path = Keywords;
+			sourceTree = "<group>";
+		};
 		F4CE27CA2BC1C17500180D94 = {
 			isa = PBXGroup;
 			children = (
@@ -53,10 +147,8 @@
 			isa = PBXGroup;
 			children = (
 				F4CE27D62BC1C17500180D94 /* Design_PatternsApp.swift */,
-				F4CE27D82BC1C17500180D94 /* ContentView.swift */,
-				F4CE27DA2BC1C17700180D94 /* Assets.xcassets */,
-				F4CE27DC2BC1C17700180D94 /* Design_Patterns.entitlements */,
-				F4CE27DD2BC1C17700180D94 /* Preview Content */,
+				F4CE27E52BC1C1B800180D94 /* Source */,
+				F4CE27E62BC1C1CD00180D94 /* Resources */,
 			);
 			path = "Design Patterns";
 			sourceTree = "<group>";
@@ -67,6 +159,123 @@
 				F4CE27DE2BC1C17700180D94 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F4CE27E52BC1C1B800180D94 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				F4CE27EE2BC2007400180D94 /* Entities */,
+				F4CE27F42BC23D5F00180D94 /* Extensions */,
+				F4CE28062BC4046200180D94 /* Managers */,
+				F4CE27E72BC1C1EA00180D94 /* Screens */,
+				F4CE28092BC404DE00180D94 /* UserInterface */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		F4CE27E62BC1C1CD00180D94 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F4CE27DA2BC1C17700180D94 /* Assets.xcassets */,
+				F4CE27DC2BC1C17700180D94 /* Design_Patterns.entitlements */,
+				F4CE27DD2BC1C17700180D94 /* Preview Content */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F4CE27E72BC1C1EA00180D94 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				F47A94802BC5B63B0047ED10 /* CodeView */,
+				F47A94772BC563760047ED10 /* DePaView */,
+				F4CE27F72BC23EE500180D94 /* DePaTypeList */,
+				F4CE27E82BC1C23700180D94 /* Main */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		F4CE27E82BC1C23700180D94 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F4CE27E92BC1C24C00180D94 /* Subviews */,
+				F4CE27D82BC1C17500180D94 /* MainContentView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		F4CE27E92BC1C24C00180D94 /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				F4CE27EA2BC1FFBF00180D94 /* DePaTypeView.swift */,
+				F4CE27EC2BC2000400180D94 /* DePaTypeViewDescribing.swift */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+		F4CE27EE2BC2007400180D94 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				F47A94852BC6BC890047ED10 /* CodeSnippets */,
+				F4CE27FA2BC24D0600180D94 /* DePa */,
+				F47A948A2BC95B120047ED10 /* Languages */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		F4CE27F42BC23D5F00180D94 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F47A94922BC95D740047ED10 /* ColorExtensions.swift */,
+				F4CE27F52BC23D7500180D94 /* ImageExtensions.swift */,
+				F47A94882BC956720047ED10 /* TextExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F4CE27F72BC23EE500180D94 /* DePaTypeList */ = {
+			isa = PBXGroup;
+			children = (
+				F4CE28012BC3478A00180D94 /* Subviews */,
+				F4CE27F82BC23EFF00180D94 /* DePaTypeListView.swift */,
+				F4CE27FD2BC24ECD00180D94 /* DePaTypeListViewDescribing.swift */,
+			);
+			path = DePaTypeList;
+			sourceTree = "<group>";
+		};
+		F4CE27FA2BC24D0600180D94 /* DePa */ = {
+			isa = PBXGroup;
+			children = (
+				F4CE27EF2BC2009500180D94 /* DePaType.swift */,
+				F4CE27FB2BC24D6000180D94 /* DePa.swift */,
+				F47A947C2BC56FC90047ED10 /* DePaDescriptions.swift */,
+				F47A947E2BC573AF0047ED10 /* DePaTargets.swift */,
+			);
+			path = DePa;
+			sourceTree = "<group>";
+		};
+		F4CE28012BC3478A00180D94 /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				F4CE28022BC347A200180D94 /* DePaCellView.swift */,
+				F4CE28042BC347EE00180D94 /* DePaCellViewDescribing.swift */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+		F4CE28062BC4046200180D94 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				F47A94752BC561C00047ED10 /* SystemManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		F4CE28092BC404DE00180D94 /* UserInterface */ = {
+			isa = PBXGroup;
+			children = (
+				F4CE28072BC4047300180D94 /* DePaColors.swift */,
+			);
+			path = UserInterface;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +294,10 @@
 			dependencies = (
 			);
 			name = "Design Patterns";
+			packageProductDependencies = (
+				F4CE27F22BC202A700180D94 /* SafeSFSymbols */,
+				F4CE27FF2BC327FF00180D94 /* SafeSFSymbols */,
+			);
 			productName = "Design Patterns";
 			productReference = F4CE27D32BC1C17500180D94 /* Design Patterns.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +326,9 @@
 				Base,
 			);
 			mainGroup = F4CE27CA2BC1C17500180D94;
+			packageReferences = (
+				F4CE27F12BC202A700180D94 /* XCRemoteSwiftPackageReference "SafeSFSymbols" */,
+			);
 			productRefGroup = F4CE27D42BC1C17500180D94 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -139,8 +355,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4CE27D92BC1C17500180D94 /* ContentView.swift in Sources */,
+				F47A94842BC5B6BB0047ED10 /* CommandPatternCode.swift in Sources */,
+				F47A94762BC561C00047ED10 /* SystemManager.swift in Sources */,
+				F4CE27F92BC23EFF00180D94 /* DePaTypeListView.swift in Sources */,
+				F47A947D2BC56FC90047ED10 /* DePaDescriptions.swift in Sources */,
+				F47A94892BC956720047ED10 /* TextExtensions.swift in Sources */,
+				F4CE27D92BC1C17500180D94 /* MainContentView.swift in Sources */,
+				F4CE28032BC347A200180D94 /* DePaCellView.swift in Sources */,
+				F4CE27EB2BC1FFBF00180D94 /* DePaTypeView.swift in Sources */,
+				F47A947B2BC5639E0047ED10 /* DePaViewDescibing.swift in Sources */,
+				F4CE27F02BC2009500180D94 /* DePaType.swift in Sources */,
+				F47A94792BC5638B0047ED10 /* DePaView.swift in Sources */,
+				F47A94822BC5B6460047ED10 /* CodeView.swift in Sources */,
+				F47A94912BC95BFC0047ED10 /* ProgLangKeywordsStoreDescribing.swift in Sources */,
+				F4CE27F62BC23D7500180D94 /* ImageExtensions.swift in Sources */,
+				F4CE27ED2BC2000400180D94 /* DePaTypeViewDescribing.swift in Sources */,
+				F4CE28052BC347EE00180D94 /* DePaCellViewDescribing.swift in Sources */,
 				F4CE27D72BC1C17500180D94 /* Design_PatternsApp.swift in Sources */,
+				F47A948C2BC95B270047ED10 /* ProgLang.swift in Sources */,
+				F47A948E2BC95B620047ED10 /* ProgLangKeywords.swift in Sources */,
+				F4CE27FE2BC24ECD00180D94 /* DePaTypeListViewDescribing.swift in Sources */,
+				F47A947F2BC573AF0047ED10 /* DePaTargets.swift in Sources */,
+				F47A94952BC95DBD0047ED10 /* CodeViewDescribing.swift in Sources */,
+				F4CE27FC2BC24D6000180D94 /* DePa.swift in Sources */,
+				F4CE28082BC4047300180D94 /* DePaColors.swift in Sources */,
+				F47A94932BC95D740047ED10 /* ColorExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,10 +505,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "Design Patterns/Design_Patterns.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Design Patterns/Resources/Design_Patterns.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Design Patterns/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Design Patterns/Resources/Preview Content\"";
 				DEVELOPMENT_TEAM = GBDSAYFJ49;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -304,10 +543,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "Design Patterns/Design_Patterns.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Design Patterns/Resources/Design_Patterns.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Design Patterns/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Design Patterns/Resources/Preview Content\"";
 				DEVELOPMENT_TEAM = GBDSAYFJ49;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -359,6 +598,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F4CE27F12BC202A700180D94 /* XCRemoteSwiftPackageReference "SafeSFSymbols" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sparrowcode/SafeSFSymbols";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F4CE27F22BC202A700180D94 /* SafeSFSymbols */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F4CE27F12BC202A700180D94 /* XCRemoteSwiftPackageReference "SafeSFSymbols" */;
+			productName = SafeSFSymbols;
+		};
+		F4CE27FF2BC327FF00180D94 /* SafeSFSymbols */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F4CE27F12BC202A700180D94 /* XCRemoteSwiftPackageReference "SafeSFSymbols" */;
+			productName = SafeSFSymbols;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F4CE27CB2BC1C17500180D94 /* Project object */;
 }

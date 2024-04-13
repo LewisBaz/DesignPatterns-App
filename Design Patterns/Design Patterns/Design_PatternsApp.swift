@@ -11,7 +11,7 @@ import SwiftUI
 struct Design_PatternsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainContentView(selectedType: Binding(get: { .behavioral }, set: { _ in }))
         }
     }
 }
