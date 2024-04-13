@@ -37,6 +37,7 @@ struct DePaTypeView: View {
         }
         .background(.white)
         .cornerRadius(12)
+        .buttonStyle(.plain)
     }
 }
 

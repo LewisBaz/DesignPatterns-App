@@ -5,8 +5,6 @@
 //  Created by Lewis on 09.04.2024.
 //
 
-import Foundation
-
 enum CommandPatternCode {
     
     static let code = """

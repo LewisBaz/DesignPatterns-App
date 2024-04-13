@@ -20,6 +20,9 @@
 		F47A94912BC95BFC0047ED10 /* ProgLangKeywordsStoreDescribing.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47A94902BC95BFC0047ED10 /* ProgLangKeywordsStoreDescribing.swift */; };
 		F47A94932BC95D740047ED10 /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47A94922BC95D740047ED10 /* ColorExtensions.swift */; };
 		F47A94952BC95DBD0047ED10 /* CodeViewDescribing.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47A94942BC95DBD0047ED10 /* CodeViewDescribing.swift */; };
+		F47A94972BCAB6A10047ED10 /* DePaUMLImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47A94962BCAB6A10047ED10 /* DePaUMLImage.swift */; };
+		F47A94992BCAB7C90047ED10 /* DePaCodeSnippet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47A94982BCAB7C90047ED10 /* DePaCodeSnippet.swift */; };
+		F47A949B2BCAB7F40047ED10 /* CodeSnippetsFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47A949A2BCAB7F40047ED10 /* CodeSnippetsFactory.swift */; };
 		F4CE27D72BC1C17500180D94 /* Design_PatternsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CE27D62BC1C17500180D94 /* Design_PatternsApp.swift */; };
 		F4CE27D92BC1C17500180D94 /* MainContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CE27D82BC1C17500180D94 /* MainContentView.swift */; };
 		F4CE27DB2BC1C17700180D94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4CE27DA2BC1C17700180D94 /* Assets.xcassets */; };
@@ -52,6 +55,9 @@
 		F47A94902BC95BFC0047ED10 /* ProgLangKeywordsStoreDescribing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgLangKeywordsStoreDescribing.swift; sourceTree = "<group>"; };
 		F47A94922BC95D740047ED10 /* ColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtensions.swift; sourceTree = "<group>"; };
 		F47A94942BC95DBD0047ED10 /* CodeViewDescribing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeViewDescribing.swift; sourceTree = "<group>"; };
+		F47A94962BCAB6A10047ED10 /* DePaUMLImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DePaUMLImage.swift; sourceTree = "<group>"; };
+		F47A94982BCAB7C90047ED10 /* DePaCodeSnippet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DePaCodeSnippet.swift; sourceTree = "<group>"; };
+		F47A949A2BCAB7F40047ED10 /* CodeSnippetsFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeSnippetsFactory.swift; sourceTree = "<group>"; };
 		F4CE27D32BC1C17500180D94 /* Design Patterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Design Patterns.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4CE27D62BC1C17500180D94 /* Design_PatternsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Design_PatternsApp.swift; sourceTree = "<group>"; };
 		F4CE27D82BC1C17500180D94 /* MainContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainContentView.swift; sourceTree = "<group>"; };
@@ -104,6 +110,7 @@
 		F47A94852BC6BC890047ED10 /* CodeSnippets */ = {
 			isa = PBXGroup;
 			children = (
+				F47A949A2BCAB7F40047ED10 /* CodeSnippetsFactory.swift */,
 				F47A94832BC5B6BB0047ED10 /* CommandPatternCode.swift */,
 			);
 			name = CodeSnippets;
@@ -249,6 +256,8 @@
 				F4CE27FB2BC24D6000180D94 /* DePa.swift */,
 				F47A947C2BC56FC90047ED10 /* DePaDescriptions.swift */,
 				F47A947E2BC573AF0047ED10 /* DePaTargets.swift */,
+				F47A94962BCAB6A10047ED10 /* DePaUMLImage.swift */,
+				F47A94982BCAB7C90047ED10 /* DePaCodeSnippet.swift */,
 			);
 			path = DePa;
 			sourceTree = "<group>";
@@ -356,6 +365,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F47A94842BC5B6BB0047ED10 /* CommandPatternCode.swift in Sources */,
+				F47A949B2BCAB7F40047ED10 /* CodeSnippetsFactory.swift in Sources */,
 				F47A94762BC561C00047ED10 /* SystemManager.swift in Sources */,
 				F4CE27F92BC23EFF00180D94 /* DePaTypeListView.swift in Sources */,
 				F47A947D2BC56FC90047ED10 /* DePaDescriptions.swift in Sources */,
@@ -363,6 +373,8 @@
 				F4CE27D92BC1C17500180D94 /* MainContentView.swift in Sources */,
 				F4CE28032BC347A200180D94 /* DePaCellView.swift in Sources */,
 				F4CE27EB2BC1FFBF00180D94 /* DePaTypeView.swift in Sources */,
+				F47A94972BCAB6A10047ED10 /* DePaUMLImage.swift in Sources */,
+				F47A94992BCAB7C90047ED10 /* DePaCodeSnippet.swift in Sources */,
 				F47A947B2BC5639E0047ED10 /* DePaViewDescibing.swift in Sources */,
 				F4CE27F02BC2009500180D94 /* DePaType.swift in Sources */,
 				F47A94792BC5638B0047ED10 /* DePaView.swift in Sources */,

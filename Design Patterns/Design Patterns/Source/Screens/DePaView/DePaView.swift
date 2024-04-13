@@ -40,7 +40,10 @@ struct DePaView: View {
                             .font(.title2.bold())
                         Spacer()
                     }
-                    Text(viewModel.target)
+                    HStack {
+                        Text(viewModel.target)
+                        Spacer()
+                    }
                 }
                 VStack {
                     HStack {
@@ -50,7 +53,10 @@ struct DePaView: View {
                             .font(.title2.bold())
                         Spacer()
                     }
-                    Text(viewModel.description)
+                    HStack {
+                        Text(viewModel.description)
+                        Spacer()
+                    }
                 }
             }
             .padding()

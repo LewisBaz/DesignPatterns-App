@@ -20,7 +20,25 @@ struct MockCodeView: CodeViewDescribing {
     
     var lang: ProgLang = lang
     
-    var code: String = CommandPatternCode.code
+    var code: String {
+        type.code
+    }
     
     var keywords: ProgLangKeywordsStoreDescribing = ProgLangKeywords.keywords(for: lang)
+}
+
+struct CommonCodeView: CodeViewDescribing {
+    
+    var type: any DesignPattern
+    
+    var lang: ProgLang
+    
+    var code: String {
+        type.code
+    }
+    
+    var keywords: ProgLangKeywordsStoreDescribing {
+        ProgLangKeywords.keywords(for: lang)
+    }
+    
 }

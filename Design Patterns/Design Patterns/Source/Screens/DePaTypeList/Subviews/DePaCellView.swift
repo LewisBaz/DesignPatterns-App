@@ -22,7 +22,7 @@ struct DePaCellView: View {
     var body: some View {
         NavigationStack {
             NavigationLink {
-                DePaView(MockDePaView())
+                DePaView(CommonDePaView(type: viewModel.pattern))
             } label: {
                 HStack {
                     Text(viewModel.name)

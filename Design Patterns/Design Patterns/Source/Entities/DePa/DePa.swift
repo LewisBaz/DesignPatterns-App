@@ -10,6 +10,8 @@ protocol DesignPattern: Hashable {
     var patternName: String {get set}
     var target: String {get}
     var description: String {get}
+    var umlImageName: String {get}
+    var code: String {get}
 }
 
 extension DePaType {
